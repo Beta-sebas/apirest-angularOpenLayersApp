@@ -22,13 +22,13 @@ En el IDE de preferencia importa el proyecto (Existing Maven projec) para que se
 
 ## Rutas ⚙️
 
-GET    /api/all Devuelve información de todas las posiciones
-POST   /api/setMarcador  Crea posiciones
+* GET    /api/all Devuelve información de todas las posiciones
+* POST   /api/setMarcador  Crea posiciones
 
 Filter
 
-GET   /api/marcador/{id}
-GET   api/name?name={nombre}
+* GET   /api/marcador/{id}
+* GET   api/name?name={nombre}
 
 ## Deploy Heroku 💻
 [Apirest-angularOpenLayersApp](https://spring-openlayers-markers.herokuapp.com/api/all)
